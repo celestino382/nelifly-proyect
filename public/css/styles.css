@@ -1,0 +1,28 @@
+*
+{
+    box-sizing: border-box;
+}
+.clear
+{
+    clear: both;
+}
+html, body
+{
+    height: 100%;
+    width: 100%;
+    border:0;
+}
+.gafete
+{
+    width: 20rem;
+    height: 30rem;
+    border: 1px solid black;
+    
+}
+
+.logo
+{
+width: 20%;
+height: 100%;
+border: 1px;
+}

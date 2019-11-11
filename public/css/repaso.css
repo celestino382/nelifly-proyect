@@ -1,0 +1,52 @@
+html, body
+{
+width: 100%;
+height: 100%;
+padding: 0;
+margin:0;
+
+}
+.cuadro
+{
+    border: 0.1rem solid dimgray;
+    width: 5rem;
+    height: 5rem;
+    display: inline-block;
+
+
+}
+*
+{
+    box-sizing: border-box
+}
+.top-left
+{
+position: absolute;
+left: 0;
+top: 0;
+background: red;
+}
+.top-right
+{
+position: absolute;
+right: 0;
+top: 0;
+background: blue;
+}
+.bottom-left
+{
+    position: absolute;
+    left:0;
+    bottom: 0;
+    background: green;
+
+
+}
+.bottom-right
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: black;
+
+}

@@ -1,0 +1,16 @@
+.contenedor{
+    width: 100vh;
+    height: 100vw;
+    display: flex;
+}
+.cuadroblanco{
+    width: 12.5%;
+    border: 5px solid blue;
+    height: 10%;
+}
+.cuadronegro{
+    width: 25%;
+    border: 5px solid black;
+    height: 25%;
+    background: black;
+}

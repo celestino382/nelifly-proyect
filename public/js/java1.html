@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>arreglos</title>
+    <script>
+        //tipos de datos "complejos"
+        var arreglo =[1, 2, 3, 4, 5 ];
+        //            0  1  2  3  4
+        console.log(arreglo[1]);
+
+        //objetos
+        var objeto ={
+            propiedad:"valor",
+            propiedad2:"valor",
+            propiedad3: true,
+            propiedad4: 45,
+            propiedad5: function(){}
+
+         };
+         var persona={
+             nombre:"tino",
+             apellidoMaterno:"gonzalez",
+             apellidoPaterno:"marquez",
+             edad:23,
+             sexo:"h",
+             peso:56,
+             nacionalidad:"mexicano"
+           
+         };
+         //persona[]
+         console.log(persona ["nombre"]);
+         //hash
+         //hashing
+         //hashear
+
+         var alumnos=[
+             {//celestino
+                 nombre:"Celestino",
+                 apellidoP:"Gonzalez",
+                 apellidoM:"Marquez",
+                 edad:23,
+                 peso:56,
+                 estatura:1.60,
+                 sexo:"m",
+                 mostrar:function()
+                 {
+                     console.log(this.nombre + " " + this.apellidoPaterno);
+                     console.log("edad:" + this.edad);
+                 }     
+             },
+             
+             {//natalia
+                nombre:"natalia",
+                 apellidoP:"rodriguez",
+                 apellidoM:"capitan",
+                 edad:22,
+                 peso:56,
+                 estatura:1.43,
+                 sexo:"f", 
+                 mostrar:function()
+                 {
+                     console.log(this.nombre + " " + this.apellidoPaterno);
+                     console.log("edad:" + this.edad);
+                 }     
+
+            },
+            {//andres
+                nombre:"andres",
+                 apellidoP:"ramos",
+                 apellidoM:"teneyuque",
+                 edad:19,
+                 peso:50,
+                 estatura:1.60,
+                 sexo:"m",
+                 mostrar:function()
+                 {
+                     console.log(this.nombre + " " + this.apellidoPaterno);
+                     console.log("edad:" + this.edad);
+                 }     
+            },
+            {//javier
+                nombre:"javier",
+                 apellidoP:"anguiano",
+                 apellidoM:"de lara",
+                 edad:21,
+                 peso:56,
+                 estatura:1.77,
+                 sexo:"m",
+                 mostrar:function()
+                 {
+                     console.log(this.nombre + " " + this.apellidoPaterno);
+                     console.log("edad:" + this.edad);
+                 }     
+            },
+            {//carlos
+                nombre:"Carlos",
+                 apellidoP:"mendoza",
+                 apellidoM:"andrade",
+                 edad:22,
+                 peso:56,
+                 estatura:1.77,
+                 sexo:"m",
+                 mostrar:function()
+                 {
+                     console.log(this.nombre + " " + this.apellidoPaterno);
+                     console.log("edad:" + this.edad);
+                 }     
+            },
+            {//andres
+            nombre:"andres",
+                 apellidoP:"coronado",
+                 apellidoM:"lazaro",
+                 edad:22,
+                 peso:56,
+                 estatura:1.75,
+                 sexo:"m",
+                 mostrar:function()
+                 {
+                     console.log(this.nombre + " " + this.apellidoPaterno);
+                     console.log("edad:" + this.edad);
+                 }     
+                 },
+
+                 {//miriam
+                    nombre:"miriam",
+                 apellidoP:"herrera",
+                 apellidoM:"reyna",
+                 edad:21,
+                 peso:56,
+                 estatura:1.70,
+                 sexo:"f",
+                 mostrar:function()
+                 {
+                     console.log(this.nombre + " " + this.apellidoPaterno);
+                     console.log("edad:" + this.edad);
+                 }     
+                 },
+
+         ];
+
+         alumnos[0].mostrar();
+         alumnos[1].mostrar();
+         alumnos[2].mostrar();
+         alumnos[3].mostrar();
+         alumnos[4].mostrar();
+         alumnos[5].mostrar();
+         alumnos[6].mostrar();
+
+                 
+       //alert(alumnos.length);
+       for(var i=0;i<alumnos.length; i =i + 1)
+       {
+        alumnos[i].mostrar();
+       }
+       var numeros=[1,2,3,4,5,6,7,8,9];
+       for (var i=numeros.length -1; i> -1;i=i-1)
+       {
+           console.log(numeros[i]);
+       }
+       if(numeros [i]>40)
+         {
+            console.log(numeros[i]);
+         }
+
+         var hombres=[];
+         for (var i=0;i<alumnos.length;i=i+1)
+         {
+             if (alumnos[i].sexo=='m')
+             hombres.push()(alumnos[i]);
+             else
+             console.log(alumnos[i]);
+         }
+    
+    
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
